@@ -1,0 +1,90 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_$s14local_notifier19LocalNotifierPluginC5close_6resultySo17FlutterMethodCallC_yypSgctFTq",
+            "_$s14local_notifier19LocalNotifierPluginC7channelSo20FlutterMethodChannelCSgvpWvd",
+            "_$s14local_notifier19LocalNotifierPluginC16notificationDictSDySSSo18NSUserNotificationCGvpMV",
+            "_$s14local_notifier19LocalNotifierPluginC7channelSo20FlutterMethodChannelCSgvM",
+            "_$s14local_notifier19LocalNotifierPluginC9registrarSo07FlutterE9Registrar_pSgvsTq",
+            "_$s14local_notifier19LocalNotifierPluginC22userNotificationCenter_13shouldPresentSbSo06NSUsergH0C_So0kG0CtF",
+            "_$s14local_notifier19LocalNotifierPluginC22userNotificationCenter_10didDeliverySo06NSUsergH0C_So0kG0CtF",
+            "_$s14local_notifier19LocalNotifierPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "_$s14local_notifier19LocalNotifierPluginC22userNotificationCenter_11didActivateySo06NSUsergH0C_So0kG0CtFTq",
+            "_$s14local_notifier19LocalNotifierPluginC9registrarSo07FlutterE9Registrar_pSgvpWvd",
+            "_$s14local_notifier19LocalNotifierPluginC9registrarSo07FlutterE9Registrar_pSgvs",
+            "_$s14local_notifier19LocalNotifierPluginC7channelSo20FlutterMethodChannelCSgvpfi",
+            "_$s14local_notifier19LocalNotifierPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTq",
+            "_$s14local_notifier19LocalNotifierPluginC8register4withySo07FlutterE9Registrar_p_tFZ",
+            "_$s14local_notifier19LocalNotifierPluginC9registrarSo07FlutterE9Registrar_pSgvg",
+            "_$s14local_notifier19LocalNotifierPluginC9registrarSo07FlutterE9Registrar_pSgvM",
+            "_$s14local_notifier19LocalNotifierPluginCN",
+            "_$s14local_notifier19LocalNotifierPluginC13_invokeMethodyySS_SStFTq",
+            "_$s14local_notifier19LocalNotifierPluginC7channelSo20FlutterMethodChannelCSgvs",
+            "_$s14local_notifier19LocalNotifierPluginC7channelSo20FlutterMethodChannelCSgvsTq",
+            "_$s14local_notifier19LocalNotifierPluginC16notificationDictSDySSSo18NSUserNotificationCGvMTq",
+            "_$s14local_notifier19LocalNotifierPluginCfD",
+            "_$s14local_notifier19LocalNotifierPluginC9registrarSo07FlutterE9Registrar_pSgvpfi",
+            "_$s14local_notifier19LocalNotifierPluginC22userNotificationCenter_13shouldPresentSbSo06NSUsergH0C_So0kG0CtFTq",
+            "_$s14local_notifier19LocalNotifierPluginCMn",
+            "_local_notifierVersionString",
+            "_$s14local_notifier19LocalNotifierPluginC5close_6resultySo17FlutterMethodCallC_yypSgctF",
+            "_$s14local_notifier19LocalNotifierPluginC16notificationDictSDySSSo18NSUserNotificationCGvs",
+            "_$s14local_notifier19LocalNotifierPluginC13_invokeMethodyySS_SStF",
+            "_$s14local_notifier19LocalNotifierPluginC7channelSo20FlutterMethodChannelCSgvpMV",
+            "_$s14local_notifier19LocalNotifierPluginC9registrarSo07FlutterE9Registrar_pSgvpMV",
+            "_$s14local_notifier19LocalNotifierPluginC9registrarSo07FlutterE9Registrar_pSgvMTq",
+            "_$s14local_notifier19LocalNotifierPluginCACycfc",
+            "_local_notifierVersionNumber",
+            "_$s14local_notifier19LocalNotifierPluginCACycfC",
+            "_$s14local_notifier19LocalNotifierPluginC16notificationDictSDySSSo18NSUserNotificationCGvsTq",
+            "_$s14local_notifier19LocalNotifierPluginC6notify_6resultySo17FlutterMethodCallC_yypSgctF",
+            "_$s14local_notifier19LocalNotifierPluginC16notificationDictSDySSSo18NSUserNotificationCGvgTq",
+            "_$s14local_notifier19LocalNotifierPluginC6notify_6resultySo17FlutterMethodCallC_yypSgctFTq",
+            "_$s14local_notifier19LocalNotifierPluginC7channelSo20FlutterMethodChannelCSgvgTq",
+            "_$s14local_notifier19LocalNotifierPluginC16notificationDictSDySSSo18NSUserNotificationCGvg",
+            "_$s14local_notifier19LocalNotifierPluginCMa",
+            "_$s14local_notifier19LocalNotifierPluginC7channelSo20FlutterMethodChannelCSgvMTq",
+            "_$s14local_notifier19LocalNotifierPluginC16notificationDictSDySSSo18NSUserNotificationCGvM",
+            "_$s14local_notifier19LocalNotifierPluginC16notificationDictSDySSSo18NSUserNotificationCGvpWvd",
+            "_$s14local_notifier19LocalNotifierPluginC16notificationDictSDySSSo18NSUserNotificationCGvpfi",
+            "_$s14local_notifier19LocalNotifierPluginC7channelSo20FlutterMethodChannelCSgvg",
+            "_$s14local_notifier19LocalNotifierPluginC9registrarSo07FlutterE9Registrar_pSgvgTq",
+            "_$s14local_notifier19LocalNotifierPluginC22userNotificationCenter_11didActivateySo06NSUsergH0C_So0kG0CtF",
+            "_$s14local_notifier19LocalNotifierPluginC22userNotificationCenter_10didDeliverySo06NSUsergH0C_So0kG0CtFTq"
+          ],
+          "objc_class": [
+            "_TtC14local_notifier19LocalNotifierPlugin",
+            "PodsDummy_local_notifier"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/local_notifier.framework/Versions/A/local_notifier"
+      }
+    ],
+    "swift_abi": [
+      {
+        "abi": 7
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "11",
+        "target": "arm64-macos"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

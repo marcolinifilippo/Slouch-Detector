@@ -1,0 +1,4 @@
+
+module local_notifier.__Swift {
+  exclude header "local_notifier-Swift.h"
+}

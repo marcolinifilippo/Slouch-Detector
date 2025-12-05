@@ -1,0 +1,10 @@
+framework module local_notifier {
+  umbrella header "local_notifier-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module local_notifier.__Swift {
+  exclude header "local_notifier-Swift.h"
+}
