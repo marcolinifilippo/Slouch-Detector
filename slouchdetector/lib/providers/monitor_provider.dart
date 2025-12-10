@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
 import 'package:path/path.dart' as p;
 import '../services/api_service.dart';
 import '../services/notification_service.dart';
@@ -69,10 +68,10 @@ class MonitorProvider extends ChangeNotifier {
       );
 
       // Listen to the output of the python script for debugging
-      _pythonProcess!.stdout.transform(SystemEncoding().decoder).listen((data) {
+      _pythonProcess!.stdout.transform(const SystemEncoding().decoder).listen((data) {
         if (kDebugMode) print("[PYTHON]: $data");
       });
-      _pythonProcess!.stderr.transform(SystemEncoding().decoder).listen((data) {
+      _pythonProcess!.stderr.transform(const SystemEncoding().decoder).listen((data) {
         if (kDebugMode) print("[PYTHON ERR]: $data");
       });
 

@@ -6,11 +6,10 @@ import '../models/posture_response.dart';
 /// It acts as a bridge between the Flutter app and the Flask server.
 class ApiService {
   // Localhost address for the Python/Flask server
-  // 127.0.0.1 is the standard IP address for "this computer".
   final String _baseUrl = 'http://127.0.0.1:5001/status';
 
   /// Asks the backend for the current posture status.
-  /// Returns a [PostureResponse] object if successful, or null if there's an error.
+  /// Returns a PostureResponse object if successful, or null if there's an error.
   Future<PostureResponse?> checkPosture() async {
     try {
       // We use 'await' because http.get takes some time to complete.
