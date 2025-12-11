@@ -1,5 +1,0 @@
-
-module local_notifier.Swift {
-  header "local_notifier-Swift.h"
-  requires objc
-}

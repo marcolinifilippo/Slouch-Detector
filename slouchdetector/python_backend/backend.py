@@ -215,6 +215,11 @@ def current_frame():
         return Response(encodedImage.tobytes(), mimetype='image/jpeg')
 
 if __name__ == '__main__':
+    print("Starting Python Backend...")
+    
     t = threading.Thread(target=vision_loop, daemon=True)
     t.start()
+    print(f"Vision loop started. Starting Flask on port {PORT}...")
     app.run(host='0.0.0.0', port=PORT, debug=False, threaded=True)
+    print(f"CRITICAL ERROR: {e}")
+    print("Backend exiting.")

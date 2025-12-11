@@ -47,14 +47,15 @@ class MonitorProvider extends ChangeNotifier {
       final String backendDir = p.join(projectRoot, 'python_backend');
       final String scriptPath = p.join(backendDir, 'backend.py');
       
+
+
       // Try to find the virtual environment python first
       String pythonExec = p.join(backendDir, 'venv', 'bin', 'python');
       if (!File(pythonExec).existsSync()) {
-        print("Venv python not found, trying system python3");
+        print("Venv python not found at $pythonExec, trying system python3");
         pythonExec = 'python3'; 
-      }
+      } 
 
-      print("Launching Python: $pythonExec $scriptPath");
 
       // Process.start runs the command in the background
       _pythonProcess = await Process.start(
@@ -64,6 +65,7 @@ class MonitorProvider extends ChangeNotifier {
         workingDirectory: backendDir,
         environment: {
           'OPENCV_AVFOUNDATION_SKIP_AUTH': '1',
+          'PYTHONUNBUFFERED': '1',
         },
       );
 
