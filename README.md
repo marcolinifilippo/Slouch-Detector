@@ -1,9 +1,9 @@
 # Slouch Detector 
-## Preview
-|:---:|
-| <img src="screenshots/screenshot.png" width="200">|
+## Preview:
 
-Welcome to the **Slouch Detector** project! This application uses your computer's camera to detect if you are slouching and reminds you to sit up straight.
+<img src="screenshots/screenshot.png" width="600">
+
+Welcome to the **Slouch Detector** project! This application uses your computer's camera to detect if you are slouching and reminds you to sit up straight sending you a notification.
 
 It consists of two parts:
 1.  **Flutter App**: The user interface (Desktop App).
