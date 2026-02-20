@@ -1,4 +1,7 @@
 # Slouch Detector 
+## Preview
+|:---:|
+| <img src="screenshots/screenshot.png" width="200">|
 
 Welcome to the **Slouch Detector** project! This application uses your computer's camera to detect if you are slouching and reminds you to sit up straight.
 
